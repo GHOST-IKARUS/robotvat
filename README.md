@@ -98,15 +98,3 @@ To simulate concave bodies, the OBJ file needs to be processed by convex decompo
 ```bash
 python tools/convert_obj_to_urdf.py --input PATH_TO_OBJ --output OUTPUT_DIR --decompose 1
 ```
-
-## Citation
-
-If you find this code useful for your research, please cite:
-```
-@article{fang2019cavin, 
-    title={Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation},
-    author={Kuan Fang and Yuke Zhu and Animesh Garg and Silvio Savarese and Li Fei-Fei}, 
-    journal={Conference on Robot Learning (CoRL)}, 
-    year={2019} 
-}
-```
